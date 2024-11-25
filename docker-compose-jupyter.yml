@@ -1,0 +1,12 @@
+
+services:
+  jupyter:
+    container_name: jupyter-notebook
+    build:
+      context: .
+      dockerfile: ./docker/jupyter/Dockerfile
+    volumes:
+      - ./vol/notebook:/home/jovyan/work
+    ports:
+      - 8888:8888
+    command: "start-notebook.sh --NotebookApp.token="
