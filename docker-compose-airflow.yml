@@ -1,7 +1,7 @@
 
 services:
   postgres:
-      container_name: airflow-postgres
+      container_name: postgres
       image: postgres:9.6
       ports:
       - '5432:5432'
@@ -14,7 +14,7 @@ services:
               max-size: 10m
               max-file: "3"
 
-  webserver:
+  airflow-webserver:
       container_name: airflow-webserver
       image: puckel/docker-airflow:1.10.9
       restart: always

@@ -174,3 +174,6 @@ Fork, improve and PR.
 
 References:
 https://medium.com/@le.oasis/apache-airflow-docker-tutorial-2c8c152a074a
+
+# Commands
+`docker-compose -f .\docker-compose-airflow.yml up -d`
