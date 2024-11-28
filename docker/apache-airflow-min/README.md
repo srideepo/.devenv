@@ -17,3 +17,4 @@ Enable the DAG and watch it ingest data.
 
 ### Reference
 https://www.youtube.com/watch?v=TkvX1L__g3s
+https://www.youtube.com/watch?v=CLkzXrjrFKg&list=PLwFJcsJ61oujAqYpMp1kdUBcPG0sE0QMT&index=6

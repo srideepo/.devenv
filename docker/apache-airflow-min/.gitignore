@@ -20,6 +20,7 @@ parts/
 sdist/
 var/
 logs/
+__pycache__/
 wheels/
 pip-wheel-metadata/
 share/python-wheels/
